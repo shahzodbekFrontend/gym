@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'Audiowide';
+    src: url('Audiowide-Regular.woff2') format('woff2'),
+        url('Audiowide-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Regular.woff2') format('woff2'),
+        url('OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Bold.woff2') format('woff2'),
+        url('OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* GLOBAL STYLE */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: dashed #263238 1px;
+}
+
+:root {
+    --text-color:#9E9E9E;
+    --brend-color:#484848;
+}
+body {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+}
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.section {
+    height: 120vh;
+    background-image: url(../images/png/muscular-sportsman-building-biceps-with-dumbbell\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-brand {
+    margin-right: 66px;
+}
+.nav-link {
+    font-size: 16px;
+    line-height: 50px;
+}
+.section_link:not(:last-child) {
+    margin-right: 65px;
+}
+.nav_left {
+    display: flex;
+}
+form {
+    position: relative;
+}
+form img {
+    position: absolute;
+    left: 0;
+}
+.input {
+    width: 80px;
+    border: none;
+    background-color: transparent;
+}
+.button-img {
+    position: relative;
+}
+.button-img button {
+    padding: 10px 10px 10px 50px;
+}
+.vektor {
+    width: 28px;
+    height: 30px;
+    position: absolute;
+    top: 6px;
+    bottom: 5px;
+    left: 5px;
+}
+.vektor img {
+    width: 20px;
+    height: 20px;
+    padding-left: 7px;
+}
+.title {
+    font-family: 'Audiowide';
+font-style: normal;
+font-weight: 400;
+}
+.rov {
+    height: 100vh;
+}
+.position_text {
+    left: 45px;
+    top: 4px;
+}
+.nav_title {
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 55px;
+    color: #484848;
+}
+.nav_text {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #9E9E9E;
+}
+.nav_img-div {
+    width: 50px;
+    height: 50px;
+    padding: 10px 9px;
+    border-radius: 50%;
+    background: #FFD6CD;
+}
+.navBar_title {
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    color: #484848;
+}
+.navBar_bar {
+    width: 160px;
+    border: 1px solid #B9B9B9;
+    border-radius: 0px 28px;
+}
+.navBar_bar:not(:last-child) {
+    margin-right: 60px;
+}
+.navBar {
+    background: url(../images/png/Vector-3.png) no-repeat ;
+    background-position: -70px 70px;
+}
+.cart {
+    width: 100%;
+    height: 70vh;
+    background: url(../images/png/Mask\ group.png) no-repeat;
+    background-size: cover;
+}
+.cart_title {
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.cart_link,
+.cart_link span {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 55px;
+}
+.nav-link {
+    line-height: 0;
+    padding: 7px 3px 0 7px;
+}
+.future_img {
+    width: 46.06px;
+height: 46.06px;
+padding: 3px;
+border: 1px solid #C0C0C0;
+border-radius: 4px;
+}
+.future_img:not(:last-child) {
+    margin-right: 22px;
+}
+.future_list {
+}
+.future_item {
+    list-style: none;
+}
+.future_link {
+    text-decoration: none;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #A7A7A7;
+}
+.future_item:nth-child(1) .future_link,
+.future_link:focus {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+padding-bottom: 5px;
+border-bottom: 2px solid #AE0F0F;
+color: #484848;
+}
+.call_img {
+    text-decoration: none;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+color: #AE0F0F;
+}
+.blek {
+    padding: 19px 0 19px 0;
+    background: #121111;
+}
